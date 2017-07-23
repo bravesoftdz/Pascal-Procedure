@@ -1,0 +1,15 @@
+Program Sakatonik_ABC;
+uses crt;
+Var X,Y,Z: integer ;
+
+Procedure Hitung(var A,B,C: integer) ;
+Begin
+ B:= A;
+ C:= A + B ;
+ Writeln('A, B, C = ',A,B,C) ;
+End;
+Begin
+Readln(X); Readln(Y); Readln(Z);
+Hitung(X,Y,Z); Writeln('X, Y, Z =',X,Y,Z) ;
+Readln;
+End.

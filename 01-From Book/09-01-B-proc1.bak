@@ -1,0 +1,24 @@
+PROGRAM Procedures1;
+uses crt;
+{ ------------ Awal procedure ------------ }
+PROCEDURE garis;
+CONST
+ grs = '-';
+ panjanggaris = 25;
+VAR
+ i :INTEGER;
+BEGIN
+FOR i := 1 TO panjanggaris DO
+WRITE(grs);
+WRITELN
+END;
+{ --------------- Akhir Procedure --------------- }
+{ ----------------- program utama ----------------- }
+BEGIN
+clrscr;
+WRITELN;
+garis;
+WRITELN('** UJI COBA PROSEDUR  **');
+garis;
+readln
+END.
